@@ -68,3 +68,25 @@ export const addRemoveFriend = async (req, res) => {
     res.status(404).json({ message: err.message });
   }
 };
+
+// {
+//     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTI5NDY5ZmEzM2RiOGEzZDZkOTljOCIsImlhdCI6MTY4ODM3NjcyNH0.VNZkTMifeqBtc7E95ktiY2zqPfiEurP3AyDk9120bjs",
+//     "user": {
+//         "_id": "64a29469fa33db8a3d6d99c8",
+//         "firstName": "Yoav",
+//         "lastName": "Amenou",
+//         "email": "yoav@asd.com",
+//         "password": null,
+//         "picturePath": "",
+//         "friends": [
+//             ""
+//         ],
+//         "location": "asdkl3r",
+//         "occupation": "web developer",
+//         "viewedProfile": 6518,
+//         "impressions": 8354,
+//         "createdAt": "2023-07-03T09:27:05.803Z",
+//         "updatedAt": "2023-07-03T09:27:05.803Z",
+//         "__v": 0
+//     }
+// }
